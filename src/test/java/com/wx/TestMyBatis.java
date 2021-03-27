@@ -51,4 +51,9 @@ public class TestMyBatis {
     public void run3() {
         System.out.println(1 + 1 + 1);
     }
+
+    @Test
+    public void run4() {
+        System.out.println(1 + 1 + 1);
+    }
 }
