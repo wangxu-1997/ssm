@@ -46,4 +46,9 @@ public class TestMyBatis {
         session.close();
         inputStream.close();
     }
+
+    @Test
+    public void run3() {
+        System.out.println(1 + 1);
+    }
 }
