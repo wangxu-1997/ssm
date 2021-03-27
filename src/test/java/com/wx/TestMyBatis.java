@@ -41,6 +41,7 @@ public class TestMyBatis {
         List<Account> accounts = mapper.findAll();
         for (Account account : accounts) {
             System.out.println(account);
+            System.out.println("gg");
         }
         session.close();
         inputStream.close();
